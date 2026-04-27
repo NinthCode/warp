@@ -230,7 +230,7 @@
 
 首次运行
 ```
-wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh [option] [lisence/url/token]
+wget -N https://raw.githubusercontent.com/NinthCode/warp/refs/heads/main/menu.sh && bash menu.sh [option] [lisence/url/token]
 ```
 再次运行
 ```
@@ -264,7 +264,7 @@ warp [option] [lisence]
 
 举例：想为 IPv4 的甲骨文添加 Warp 双栈，首次运行
 ```
-wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh d
+wget -N https://raw.githubusercontent.com/NinthCode/warp/refs/heads/main/menu.sh && bash menu.sh d
 ```
 刷日本 Netflix  运行
 ```
@@ -275,7 +275,7 @@ warp i jp
 ## warp-go 运行脚本
 首次运行
 ```
-wget -N https://gitlab.com/fscarmen/warp/-/raw/main/warp-go.sh && bash warp-go.sh [option] [lisence]
+wget -N https://raw.githubusercontent.com/NinthCode/warp/refs/heads/main/warp-go.sh && bash warp-go.sh [option] [lisence]
 ```
 再次运行
 ```bash
@@ -315,7 +315,7 @@ warp-go [option] [lisence]
 
 ### Shell-API 运行脚本
 ```
-wget -N https://gitlab.com/fscarmen/warp/-/raw/main/api.sh && bash api.sh [option]
+wget -N https://raw.githubusercontent.com/NinthCode/warp/refs/heads/main/api.sh && bash api.sh [option]
 ```
   | [option] 变量  | 具体动作说明 |
   | ------------- | ------------- |

@@ -94,7 +94,7 @@ English | [中文](README.md)
 >Thanks to badafans open source project and patient guidance. Now released in linux using the Cloudflare WARP API. [badafans open source project](https://github.com/badafans/warp-reg)
 >Usage method
 >```
->wget -N https://gitlab.com/fscarmen/warp/-/raw/main/api.sh && bash api.sh [option]
+>wget -N https://raw.githubusercontent.com/NinthCode/warp/refs/heads/main/api.sh && bash api.sh [option]
 >```
 >
 >2023.5.10 warp-go V1.1.4 1. Docking the warp-go official account pool api, wiki: https://docs.zeroteam.top/apis/warp; 2. Change non-global from ipv4 only to dualstacks; 3. Fix the bug that the native IPv6 cannot login when using dualstacks; 4. Update the Best-enpoint app; 5. Change ip api;
@@ -142,7 +142,7 @@ English | [中文](README.md)
 >2022.8.13 First on the whole web, proudly presents @CoiaPrant's warp-go one-click script. Using various interfaces of CloudFlare-WARP and integrating wireguard-go, it can completely replace WGCF. Save Hong Kong, Toronto, etc., and let VPS without official WARP also get WARP IP. Thanks @CoiaPrant and his team again. Project official address: https://gitlab.com/ProjectWARP/warp-go/-/tree/master/
 >
 >```
->wget -N https://gitlab.com/fscarmen/warp/-/raw/main/warp-go.sh && bash warp-go.sh [option] [lisence]
+>wget -N https://raw.githubusercontent.com/NinthCode/warp/refs/heads/main/warp-go.sh && bash warp-go.sh [option] [lisence]
 >```
 >
 >2022.8.5 2.41 1.Get the traffic quota of WARP+ via API. Thanks to Oreo for technical support;
@@ -267,7 +267,7 @@ English | [中文](README.md)
 
 First run
 ```
-wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh [option] [lisence/url/token]
+wget -N https://raw.githubusercontent.com/NinthCode/warp/refs/heads/main/menu.sh && bash menu.sh [option] [lisence/url/token]
 ```
 Run again
 ```
@@ -301,7 +301,7 @@ warp [option] [lisence]
 
 Example: To add Warp dual stack to Oracle IPv4 for the first time
 ```
-wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh d
+wget -N https://raw.githubusercontent.com/NinthCode/warp/refs/heads/main/menu.sh && bash menu.sh d
 ```
 Brush Japanese Netflix
 ```
@@ -311,7 +311,7 @@ warp i jp
 ## WARP-GO Script Usage
 First run
 ```
-wget -N https://gitlab.com/fscarmen/warp/-/raw/main/warp-go.sh && bash warp-go.sh [option] [lisence]
+wget -N https://raw.githubusercontent.com/NinthCode/warp/refs/heads/main/warp-go.sh && bash warp-go.sh [option] [lisence]
 ```
 Run again
 ```bash
@@ -350,7 +350,7 @@ warp-go [option] [lisence]
 
 ### Shell-API Script Usage
 ```
-wget -N https://gitlab.com/fscarmen/warp/-/raw/main/api.sh && bash api.sh [option]
+wget -N https://raw.githubusercontent.com/NinthCode/warp/refs/heads/main/api.sh && bash api.sh [option]
 ```
   | [option] Variable  | Specific action description |
   | ------------- | ------------- |

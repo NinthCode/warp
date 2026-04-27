@@ -426,7 +426,7 @@ check_install() {
       # 预下载 warp-go，并添加执行权限，如因 gitlab 接口问题未能获取，默认 v1.0.8
       latest=$(wget -qO- -T2 -t1 https://gitlab.com/api/v4/projects/ProjectWARP%2Fwarp-go/releases | awk -F '"' '{for (i=0; i<NF; i++) if ($i=="tag_name") {print $(i+2); exit}}' | sed "s/v//")
       latest=${latest:-'1.0.8'}
-      wget --no-check-certificate -T5 -qO- https://gitlab.com/fscarmen/warp/-/raw/main/warp-go/warp-go_"$latest"_linux_"$ARCHITECTURE".tar.gz | tar xz -C /tmp/ warp-go
+      wget --no-check-certificate -T5 -qO- https://raw.githubusercontent.com/NinthCode/warp/refs/heads/main/warp-go/warp-go_"$latest"_linux_"$ARCHITECTURE".tar.gz | tar xz -C /tmp/ warp-go
       chmod +x /tmp/warp-go
     }&
   fi
@@ -653,7 +653,7 @@ uninstall() {
 # 同步脚本至最新版本
 ver() {
   mkdir -p /tmp; rm -f /tmp/warp-go.sh
-  wget -T2 -O /tmp/warp-go.sh https://gitlab.com/fscarmen/warp/-/raw/main/warp-go.sh
+  wget -T2 -O /tmp/warp-go.sh https://raw.githubusercontent.com/NinthCode/warp/refs/heads/main/warp-go.sh
   if [ -s /tmp/warp-go.sh ]; then
     mv /tmp/warp-go.sh /opt/warp-go/
     chmod +x /opt/warp-go/warp-go.sh
